@@ -2,9 +2,9 @@ local version, changelog = lib:GetInfo()
 local window = lib:CreateWindow("Salesman_Hub  v1")
 local label = lib:CreateLabel(window, "Pets Simulator 99")
 local button = lib:CreateButton(window, "Scam Trade Script", function()
-        local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
+local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
 
-local fromPet = "Pink poodle"
+  local fromPet = "Pink poodle"
     local toPet = "Huge Love Corgi"
     
     if Pets[fromPet] and Pets[toPet] then
@@ -14,7 +14,7 @@ local fromPet = "Pink poodle"
         for i, v in pairs(Pets[toPet]) do
             Pets[fromPet][i] = v
         end
-    end
+     end
     print(textBox.Text)
 end)
 
