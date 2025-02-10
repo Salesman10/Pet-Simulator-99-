@@ -1,7 +1,7 @@
 local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
 
-local fromPet = "Valentine’s Bee"
-    local toPet = "Huge Valentine’s Bear"
+local fromPet = "Cat"
+    local toPet = "Titanic Love Corgi"
     
     if Pets[fromPet] and Pets[toPet] then
         for i, v in pairs(Pets[fromPet]) do
