@@ -1,6 +1,6 @@
 local Pets = require(game:GetService("ReplicatedStorage").Library.Directory.Pets)
 
-local fromPet = "Cat"
+local fromPet = "Pink Poodle"
     local toPet = "Titanic Love Corgi"
     
     if Pets[fromPet] and Pets[toPet] then
