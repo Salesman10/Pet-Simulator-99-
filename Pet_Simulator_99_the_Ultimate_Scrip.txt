@@ -1,0 +1,23 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/bacon"))()
+local version, changelog = lib:GetInfo()
+local window = lib:CreateWindow("Salesman_Hub  v1")
+local label = lib:CreateLabel(window, "Pets Simulator 99")
+local button = lib:CreateButton(window, "Titanic Hunter Script", function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Samyb555/Pet-Simulator-99-/refs/heads/main/Script%20pet%20to%20Titanic.txt"))()
+     print(textBox.Text)
+end)
+
+local button = lib:CreateButton(window, "Huge Hunter Script", function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Samyb555/Pet-Simulator-99-/refs/heads/main/Pet%20to%20huge.txt"))()
+     print(textBox.Text)
+end)
+
+local button = lib:CreateButton(window, "Scam Trade Script", function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Samyb555/Pet-simulator-99-Huge-Hunter/refs/heads/main/Pet-simulator-99.txt"))()
+    print(textBox.Text)
+end)
+
+local button = lib:CreateButton(window, "Dupe Script", function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Samyb555/Pet-simulator-99-Huge-Hunter/refs/heads/main/Pet-simulator-99.txt"))()
+    print(textBox.Text)
+end)
